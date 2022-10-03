@@ -8,7 +8,6 @@
 import UIKit
 import CoreData
 
-
 class DataBaseHelper {
     
     static let shareInstance = DataBaseHelper()
