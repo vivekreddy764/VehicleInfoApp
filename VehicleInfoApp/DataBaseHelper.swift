@@ -16,7 +16,6 @@ class DataBaseHelper {
     func saveVehicle(vehicle: Vehicle) {
         
         let imageInstance = VehicleInfo(context: context)
-        
         imageInstance.name = vehicle.name
         imageInstance.desc = vehicle.description
         imageInstance.make = vehicle.make
